@@ -1,0 +1,145 @@
+<!Doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8" />
+        <title>FORMS.</title>
+        <link rel="stylesheet" href="forms.css">
+    </head>
+    <body style="background-color:mediumseagreen;">
+
+        <form align="center" action="mailto:niidiablo77@gmail.com" target="_blank" method="post" autocomplete="on">
+        <h1 class="container" align="center" style="background-color:dodgerblue;">NII'S SPORTING CLUB.</h1><br/>
+            <fieldset class="container" style="background-color:dodgerblue;"><br/>
+                <legend class="container header"><b><u>PERSONAL INFORMATION.</u></b></legend>
+                <label  for="fname" >FIRST NAME.</label><br/>
+                <input  class="input-box" type="text" id="fname" name="fname" placeholder="enter your firstname."><br/>
+                <label  for="lname" >LAST NAME.</label><br/>
+                <input class="input-box" type="text" id="lname" name="lname" placeholder="enter your lastname."><br/>
+                <label for="oname" >OTHER NAME.</label><br/>
+                <input class="input-box" type="text" id="oname" name="oname" placeholder="other names"><br/>
+                <label for="dob" >DATE OF BIRTH.</label><br/>
+                DD/MM/YY.<br/>
+                <select>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                    <option value="21">21</option>
+                    <option value="22">22</option>
+                    <option value="23">23</option>
+                    <option value="24">24</option>
+                    <option value="25">25</option>
+                    <option value="26">26</option>
+                    <option value="27">27</option>
+                    <option value="28">28</option>
+                    <option value="29">29</option>
+                    <option value="30">30</option>
+                    <option value="31">31</option>
+                </select>
+                <select>
+                    <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                </select>
+                <select>
+                    <option value="2006">2006</option>
+                <option value="2005">2005</option>
+                <option value="2004">2004</option>
+                <option value="2003">2003</option>
+                <option value="2002">2002</option>
+                <option value="2001">2001</option>
+                <option value="2000">2000</option>
+                <option value="1999">1999</option>
+                <option value="1998">1998</option>
+                <option value="1997">1997</option>
+                <option value="1996">1996</option>
+                <option value="1995">1995</option>
+                <option value="1994">1994</option>
+                </select><br/><br/>
+                <label for="gender">GENDER.</label><br/>
+                <input type="radio" id="gender" name="gender" value="MALE.">MALE.<br/>
+                <input type="radio" id="gender" name="gender" value="FEMALE.">FEMALE.<br/><br/>
+                <label for="country">NATIONALITY.</label><br/>
+                <input type="text" id="country" name="country"><br/><br/>
+                <label for="htown">HOMETOWN.</label><br/>
+                <input type="text" id="htown" name="htown" placeholder="your hometown."><br/><br/>
+                <label for="pob">PLACE OF BIRTH.</label><br/>
+                <input type="text" id="pob" name="pob" placeholder="where you were born."><br/><br/>
+                <label for="poa">PLACE OF ABODE.</label><br/>
+                <input type="text" id="poa" name="poa" placeholder="where you stay"><br/><br/>
+                <label for="digiadd">DIGITAL ADDRESS.</label><br/>
+                <input type="text" id="digiadd" name="digiadd" placeholder="GT-***-****"><br/><br/>
+                 <label for="email">EMAIL ADDRESS.</label><br/>
+                 <input type="text" id="email" name="email" placeholder="johndoe@gmail.com"><br/><br/>
+                 <label for="pobox">POST OFFICE BOX.</label><br/>
+                 <input type="text" id="pobox" name="pobox" placeholder="PO-BOX-2345"><br/><br/>
+                 <label for="tele"> TEL NUMBER.</label><br/>
+                 <select>
+                 <option value="233" selected >+233</option>
+                 <option value="234" >+234</option>
+                 <option value="235" >+235</option>
+                 <option value="236" >+236</option>
+                 </select>
+                 <input type="tel" id="tele" name="tele" placeholder="*********">
+            </fieldset>
+            <fieldset class="container " style="background-color:dodgerblue;">
+            <legend class="container header"><b><u>SPORTING ROLE</u></b></legend> 
+            WHAT ROLE ARE YOU INTERESTED IN?<br/>
+            <select>
+            <option value="COACH"  >COACH</option>
+            <option value="SPORTING DIRECTOR" >SPORTING DIRECTOR.</option>
+            <option value="SET PIECE COACH"  > SET PIECE COACH</option>
+            <option value="PLAYER"  >PLAYER</option>
+            <option value="MEDICAL TEAM"  >MEDICAL TEAM</option>
+            </select><br/><br/>
+            IF YOU CHOSE PLAYER,SPECIFY YOUR POSITION.<br/>
+            <select>
+            <option value="FWD">FORWARD.</option>
+            <option value="MID">MIDFIELDER.</option>
+            <option value="DEF">DEFENDER.</option>
+            <option value="GL">GOALIE.</option>
+            </select><br/><br/>
+            <label for="cv">UPLOAD YOUR CV</label><br/>
+            <input type="file" id="cv" name="cv" required><br/><br/>
+            You will receive a link in your email or on your phone number.<br/><br/>
+            <label for="notes">ADD ADITIONAL NOTES.</label><br/>
+            <textarea id="notes" name="notes" placeholder="tell us more" rows="15" cols="70"></textarea><br/><br/>
+            </fieldset>
+            <input id="sub" type="submit" id="btnEnter" name="btnEnter" value="SUBMIT"/>
+            &nbsp;&nbsp;
+            <input id="sub" type="reset" id="btnclear" name="btnclear" value="RESET." ><br/><br/><br/>
+
+            <button type="button" style="background-color:blue;"><a href="http://localhost/mywork/papaniiswork"  style="color: beige;">HOME</a>&nbsp;||&nbsp;</button>
+        <button type="button" style="background-color:blue;"><a href="#ABOUT_UPSHS"  style="color: beige;">ABOUT.</a>&nbsp;||&nbsp;</button> 
+        <button type="button" style="background-color:blue;"><a href="http://localhost/mywork/mytimetable"  style="color: beige;">TIMETABLE.</a>&nbsp;||&nbsp;</button> 
+        <button type="button" style="background-color:blue;"><a href="http://localhost/mywork/my_school"  style="color: beige;">FORMS.</a>&nbsp;||&nbsp;</button>
+        </form>
+
+        
+    </body>
+</html>
